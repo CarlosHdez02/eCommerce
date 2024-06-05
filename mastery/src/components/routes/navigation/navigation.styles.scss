@@ -1,0 +1,28 @@
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; // This ensures space between logo and nav-links
+    align-items: center; // This vertically centers the content
+    margin-bottom: 25px;
+    padding: 0 20px; // Add some padding for better alignment
+  }
+  
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+  
+  .nav-links-container {
+    display: flex;
+    justify-content: flex-end; // Ensures nav links are aligned to the right
+    align-items: center;
+    width: 50%;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
